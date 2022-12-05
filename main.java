@@ -16,7 +16,8 @@ public class main extends Thread{
 
     public static void main(String[] args) throws IOException {
         JFrame frame = new JFrame("Timed Shutdown");
-        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLocationRelativeTo(null);
         frame.setSize(200, 200);
         frame.setResizable(false);
         frame.setLayout(null);
